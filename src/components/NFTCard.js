@@ -9,7 +9,9 @@ export default function NFTCard({
     <article
       className="
         group
-w-full max-w-sm h-full        overflow-hidden
+        w-full max-w-sm
+        h-full
+        overflow-hidden
         rounded-2xl
         bg-[#14253d]
         p-5
@@ -22,19 +24,19 @@ w-full max-w-sm h-full        overflow-hidden
         hover:shadow-2xl
       "
     >
-      <div className="overflow-hidden rounded-xl  ">
-     <img
-  src={image}
-  alt={title}
-  className="
-    aspect-4/5
-    w-full
-    object-cover
-    transition-transform
-    duration-500
-    group-hover:scale-105
-  "
-/>
+      <div className="overflow-hidden rounded-2xl">
+        <img
+          src={image}
+          alt={title}
+          className="
+            aspect-4/5
+            w-full
+            object-cover
+            transition-transform
+            duration-500
+            group-hover:scale-105
+          "
+        />
       </div>
 
       <div className="mt-5">
