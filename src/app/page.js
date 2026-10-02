@@ -1,4 +1,6 @@
 import CardList from "@/components/CardList";
+import "animate.css";
+
 
 export default function Home() {
   return (

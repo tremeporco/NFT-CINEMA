@@ -9,8 +9,7 @@ export default function NFTCard({
     <article
       className="
         group
-        w-full max-w-sm
-        overflow-hidden
+w-full max-w-sm h-full        overflow-hidden
         rounded-2xl
         bg-[#14253d]
         p-5
@@ -24,7 +23,7 @@ export default function NFTCard({
       "
     >
       <div className="overflow-hidden rounded-xl  ">
-       <img
+     <img
   src={image}
   alt={title}
   className="

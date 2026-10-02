@@ -1,3 +1,4 @@
+import "animate.css";
 import NFTCard from "./NFTCard";
 
 const movies = [
@@ -41,24 +42,37 @@ const movies = [
 
 export default function CardList() {
   return (
-    <section
-      className="
-        grid
-        grid-cols-1
-        gap-6
-        sm:grid-cols-2
-        lg:grid-cols-4
-      "
-    >
-      {movies.map((movie) => (
-        <NFTCard
+<section
+  className="
+    mx-auto
+    grid
+    w-full
+    max-w-[300px]
+    grid-cols-1
+    gap-6
+    sm:max-w-none
+    sm:grid-cols-2
+    lg:grid-cols-4
+  "
+>
+      {movies.map((movie, index) => (
+        <div
           key={movie.id}
-          title={movie.title}
-          image={movie.image}
-          description={movie.description}
-          genre={movie.genre}
-          year={movie.year}
-        />
+          className="animate__animated animate__fadeInUp"
+          style={{
+            animationDelay: `${index * 0.12}s`,
+            animationDuration: "0.7s",
+            animationFillMode: "both",
+          }}
+        >
+          <NFTCard
+            title={movie.title}
+            image={movie.image}
+            description={movie.description}
+            genre={movie.genre}
+            year={movie.year}
+          />
+        </div>
       ))}
     </section>
   );
