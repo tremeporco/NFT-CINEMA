@@ -33,12 +33,12 @@ As imagens utilizadas no projeto e a logo foram desenvolvidas com auxílio do Le
 
 ### Desktop
 
-![Aplicação Desktop](public/images/screenshot-desktop.png)
+![Aplicação Desktop](public/images/desktop.jpg)
 
 ### Mobile
 
-![Aplicação Mobile](public/images/screenshot-mobile.png)
+![Aplicação Mobile](public/images/mobile.jpg)
 
 ## Vídeo da aplicação
 
-[Vídeo de demonstração](COLE_O_)
+[Vídeo de demonstração] <video controls src="Create Next App - Google Chrome 2026-10-02 00-59-15.mp4" title="Title"></video>
