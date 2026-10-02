@@ -37,8 +37,6 @@ As imagens utilizadas no projeto e a logo foram desenvolvidas com auxílio do Le
 
 ### Mobile
 
-![Aplicação Mobile](public/images/mobile.jpg)
+![Aplicação Mobile](public/images/Mobile.jpg)
 
-## Vídeo da aplicação
-
-[Vídeo de demonstração] <video controls src="Create Next App - Google Chrome 2026-10-02 00-59-15.mp4" title="Title"></video>
+[ Vídeo de demonstração](public/videos/demo.mp4)
