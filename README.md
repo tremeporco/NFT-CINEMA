@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie Collection
 
-## Getting Started
+O Movie Collection é uma aplicação web desenvolvida para apresentar uma seleção de filmes por meio de cards informativos e interativos.
 
-First, run the development server:
+O projeto foi desenvolvido utilizando **Next.js**, com **React**, **JavaScript** e **Tailwind CSS**. A aplicação possui design responsivo, permitindo sua utilização em diferentes tamanhos de tela.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Next.js
+* React
+* JavaScript
+* Tailwind CSS
+* Animate.css
+* Git e GitHub
+* Leonardo AI
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Exibição de filmes em cards
+* Informações sobre título, descrição, gênero e ano
+* Efeitos de interação nos cards
+* Animações utilizando Animate.css
+* Layout responsivo para desktop e dispositivos móveis
+* Logo desenvolvida com auxílio de inteligência artificial
 
-## Learn More
+## Desenvolvimento
 
-To learn more about Next.js, take a look at the following resources:
+O projeto foi desenvolvido como uma adaptação do desafio **NFT Preview Card Component**, da Frontend Mentor. A proposta original foi adaptada para uma aplicação de apresentação e seleção de filmes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+As imagens utilizadas no projeto e a logo foram desenvolvidas com auxílio do Leonardo AI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Imagens da aplicação
 
-## Deploy on Vercel
+### Desktop
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Aplicação Desktop](public/images/screenshot-desktop.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Mobile
+
+![Aplicação Mobile](public/images/screenshot-mobile.png)
+
+## Vídeo da aplicação
+
+[Vídeo de demonstração](COLE_O_)

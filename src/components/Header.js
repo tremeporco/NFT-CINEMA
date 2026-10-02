@@ -5,9 +5,9 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-cyan-400">
           <img
-  src="/images/logo.png"
+  src="/images/logo.jpg"
   alt="Movie Collection"
-  className="h-10 w-10 object-contain"
+  className="h-10 w-10 rounded-lg object-cover"
 />
           </div>
 
