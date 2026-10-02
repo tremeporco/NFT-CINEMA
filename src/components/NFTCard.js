@@ -19,23 +19,23 @@ export default function NFTCard({
         duration-300
         ease-out
         hover:-translate-y-2
-        hover:scale-[1.02]
+        hover:scale-[1.03]
         hover:shadow-2xl
       "
     >
-      <div className="overflow-hidden rounded-xl">
-        <img
-          src={image}
-          alt={title}
-          className="
-            aspect-square
-            w-full
-            object-cover
-            transition-transform
-            duration-500
-            group-hover:scale-105
-          "
-        />
+      <div className="overflow-hidden rounded-xl  ">
+       <img
+  src={image}
+  alt={title}
+  className="
+    aspect-4/5
+    w-full
+    object-cover
+    transition-transform
+    duration-500
+    group-hover:scale-105
+  "
+/>
       </div>
 
       <div className="mt-5">
